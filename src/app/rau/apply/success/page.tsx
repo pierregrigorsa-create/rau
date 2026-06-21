@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Application Received | RAU",
-  description: "Your RAU application has been submitted successfully.",
+  title: "Application Received | Renaissance Africa University",
+  description: "Your Renaissance Africa University application has been submitted successfully.",
 };
 
 export default function SuccessPage() {
@@ -31,7 +31,7 @@ export default function SuccessPage() {
           Application Received!
         </h1>
         <p className="text-gray-600 mb-6">
-          Thank you for applying to RAU. Your application fee has been paid
+          Thank you for applying to Renaissance Africa University. Your application fee has been paid
           successfully. We have received your application and will review it
           shortly.
         </p>

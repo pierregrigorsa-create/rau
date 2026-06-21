@@ -2,9 +2,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "RAU — Apply Online",
+  title: "Renaissance Africa University — Apply Online",
   description:
-    "Apply to study at RAU. Browse programmes and submit your application online.",
+    "Apply to study at Renaissance Africa University. Browse programmes and submit your application online.",
 };
 
 export default function RAULandingPage() {
@@ -28,7 +28,7 @@ export default function RAULandingPage() {
           </svg>
         </div>
         <h1 className="text-5xl font-bold tracking-tight mb-4">
-          Randse Afrikaanse Universiteit
+          Renaissance Africa University
         </h1>
         <p className="text-xl text-blue-200 max-w-2xl mb-10">
           Apply online for the 2026 academic year. Choose your programme, complete
@@ -56,8 +56,8 @@ export default function RAULandingPage() {
           {[
             { value: "50+", label: "Programmes" },
             { value: "15 000+", label: "Students" },
-            { value: "1966", label: "Founded" },
-            { value: "Joburg", label: "Campus" },
+            { value: "2026", label: "Intake Open" },
+            { value: "Africa", label: "Campus" },
           ].map(({ value, label }) => (
             <div key={label}>
               <p className="text-4xl font-bold text-amber-400">{value}</p>
@@ -69,13 +69,12 @@ export default function RAULandingPage() {
 
       {/* About */}
       <section id="about" className="max-w-4xl mx-auto px-6 py-20">
-        <h2 className="text-3xl font-bold mb-6">About RAU</h2>
+        <h2 className="text-3xl font-bold mb-6">About Renaissance Africa University</h2>
         <p className="text-blue-200 text-lg leading-relaxed">
-          The Randse Afrikaanse Universiteit (RAU) offers a wide range of
-          undergraduate and postgraduate qualifications across the sciences,
-          humanities, commerce, law, and engineering. Our online application
-          process makes it easy to secure your place for the upcoming academic
-          year.
+          Renaissance Africa University (RAU) offers a wide range of undergraduate
+          and postgraduate qualifications across the sciences, humanities, commerce,
+          law, and engineering. Our online application process makes it easy to
+          secure your place for the upcoming academic year.
         </p>
         <Link
           href="/rau/programmes"
@@ -88,9 +87,7 @@ export default function RAULandingPage() {
       {/* How it works */}
       <section className="bg-blue-900/40 py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-center">
-            How to Apply
-          </h2>
+          <h2 className="text-3xl font-bold mb-10 text-center">How to Apply</h2>
           <div className="grid sm:grid-cols-3 gap-8">
             {[
               {
@@ -124,9 +121,7 @@ export default function RAULandingPage() {
       {/* Footer CTA */}
       <section className="py-16 px-6 text-center">
         <h2 className="text-2xl font-bold mb-4">Ready to apply?</h2>
-        <p className="text-blue-200 mb-8">
-          Applications for 2026 are now open.
-        </p>
+        <p className="text-blue-200 mb-8">Applications for 2026 are now open.</p>
         <Link
           href="/rau/programmes"
           className="inline-flex items-center px-8 py-4 rounded-full bg-amber-400 text-blue-950 font-semibold hover:bg-amber-300 transition-colors"

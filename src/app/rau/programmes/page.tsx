@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Programmes | RAU",
-  description: "Browse RAU undergraduate and postgraduate programmes for 2026.",
+  title: "Programmes | Renaissance Africa University",
+  description: "Browse Renaissance Africa University undergraduate and postgraduate programmes for 2026.",
 };
 
 const FACULTIES = [
@@ -56,7 +56,7 @@ export default function ProgrammesPage() {
       <div className="bg-blue-950 text-white py-16 px-6">
         <div className="max-w-5xl mx-auto">
           <Link href="/rau" className="text-blue-300 hover:text-white text-sm mb-4 inline-block">
-            ← Back to RAU Home
+            ← Back to Renaissance Africa University
           </Link>
           <h1 className="text-4xl font-bold mb-3">Programmes</h1>
           <p className="text-blue-200 text-lg">
